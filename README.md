@@ -13,7 +13,7 @@ Here are simple perf tests, calling the same server 5 times in a row, using the 
 ```6.51, 6.27, 6.92, 6.56 and 6.73 secs```
 = 32.99 secs = **6.59 secs avg**
 
-**The above method iteration method**
+**PHP's inbuilt recursive iteration method**
 ```3.38, 3.26, 3.24, 3.40 and 3.23 secs```
 = 16.51 secs = **3.30 secs avg**
 
