@@ -9,13 +9,13 @@ This has big advantages over the usual recursion methods (using scandir for inst
 
 Here are perf tests 5 times in a row, using the 2 methods:
 
-**Usual recursive method (scandir etc)**
+```**Usual recursive method (scandir etc)**
 6.51, 6.27, 6.92, 6.56 and 6.73 secs
-= 32.99 secs = *6.59 secs avg*
+= 32.99 secs = **6.59 secs avg**```
 
-**The above method iteration method**
+```**The above method iteration method**
 3.38, 3.26, 3.24, 3.40 and 3.23 secs
-= 16.51 secs = *3.30 secs avg*
+= 16.51 secs = **3.30 secs avg**```
 
 (Tested 5 times in a row on a server with 2,120 files in 248 folders with a size of ~110mb)
 
